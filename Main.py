@@ -48,7 +48,7 @@ def handle_choice(update, context):
 
 # Запуск бота
 def main():
-    updater = Updater("ТОКЕН_ТВОЕГО_БОТА", use_context=True)
+    updater = Updater("7517614723:AAFzOSWUuRWZc8HxI74xI2tyoEjPyqca43A", use_context=True)
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("start", start))
